@@ -27,6 +27,7 @@ export default function Header() {
     const navItems = [
         { name: 'Home', href: '/' },
         { name: 'Explore', href: '/explore' },
+        { name: 'Edit', href: '/edit' },
         ...(status === "authenticated" ? [{ name: 'Profile', href: '/profile' }] : []),
     ]
 
