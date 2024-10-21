@@ -99,15 +99,7 @@ export default function Header() {
                     <div className="hidden md:flex items-center space-x-4">
                         {showSession()}
                     </div>
-                    <div className="flex md:hidden">
-                        <Button
-                            variant="ghost"
-                            className="text-muted-foreground"
-                            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                        >
-                            <Menu className="h-6 w-6" />
-                        </Button>
-                    </div>
+
                 </div>
             </div>
             {mobileMenuOpen && (

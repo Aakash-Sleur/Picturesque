@@ -190,9 +190,10 @@ export default function ImageEditor() {
             </div>
             {selectedImage && (
                 <div className="space-y-6">
-                    <div className="max-w-full overflow-auto bg-gray-100 rounded-lg p-4">
+                    <div className="w-full h-96 object-contain overflow-auto bg-gray-100 rounded-lg p-4">
                         <ReactCrop
                             crop={crop}
+                            className='w-[600px] h-[500px] object-cover mx-auto'
                             onChange={(c) => setCrop(c)}
                             onComplete={handleCropComplete}
                         >

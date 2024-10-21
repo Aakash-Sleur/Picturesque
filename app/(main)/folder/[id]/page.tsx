@@ -272,7 +272,7 @@ export default function FolderPage() {
                             </div>
                         </div>
                         <div>
-                            <Card className="bg-gray-800 border-gray-700 p-6">
+                            <Card className="bg-gray-800 text-white border-gray-700 p-6">
                                 <div className="flex items-center mb-4">
                                     <Avatar className="h-10 w-10 mr-4">
                                         <AvatarFallback>
